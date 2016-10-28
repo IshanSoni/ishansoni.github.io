@@ -1,0 +1,15 @@
+.body-text {
+    font-family: Monospace;
+}
+
+.syntax-color {
+    color: #a424ad;
+}
+
+.comment-color {
+    color: #16841a;
+}
+
+.tab {
+    margin-left: 50px;
+}
