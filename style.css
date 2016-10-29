@@ -1,5 +1,5 @@
 
-.body-text {
+#main {
     font-family: Monospace;
     font-size: 10px;
     text-align: left;
@@ -7,6 +7,11 @@
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.no-marg, #comment h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .syntax-color {
@@ -19,18 +24,28 @@
 
 .space {
     margin-left: 11px;
-    margin-top: 0px;
-    margin-bottom: 0px;
 }
 
 .tab {
     margin-left: 50px;
-    margin-top: 0px;
-    margin-bottom: 0px;
 }
 
 .tab-w-space {
     margin-left: 61px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+textarea {
+    width: 600px;
+    height: 27px;
+    resize: none;
+    overflow: hidden;
+    border: none;
+    text-align: left;
+    font-family: Monospace;
+    font-weight: bold;
+    font-size: 20px;
 }
