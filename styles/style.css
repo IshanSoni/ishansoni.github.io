@@ -1,8 +1,12 @@
+h1 {
+    padding-bottom: 1px;
+}
+
  .body-text {
     font-family: Monospace;
     font-size: 10px;
     text-align: left;
-    width: 600px;
+    width: 650px;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -19,9 +23,10 @@
 }
 
 a {
-    color: black;
+    color: #236add;
     text-decoration: none;
 }
+
 
 #intro-pic {
     position: relative;
@@ -59,4 +64,8 @@ a {
 
 .tab-w-space {
     margin-left: 61px;
+}
+
+.img-pad {
+    padding-right: 50px;
 }
